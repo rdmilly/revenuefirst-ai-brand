@@ -1,0 +1,37 @@
+/* RevenueFirst.AI — Official Color Tokens */
+/* Last updated: 2026-05-13 | Source: extracted from live site */
+
+:root {
+  /* Navy — nav, hero, authority */
+  --rf-navy-deep:    #1a1a2e;
+  --rf-navy-mid:     #1e3a5f;
+  --rf-navy-light:   #2d4a6f;
+  --rf-navy-muted:   #4a5568;
+  --rf-navy-sub:     #718096;
+
+  /* Red — CTAs and pain stats ONLY */
+  --rf-red:          #c41e3a;
+  --rf-red-bright:   #dc3545;
+  --rf-red-dark:     #a01830;
+
+  /* Green — all revenue-positive numbers (shared with MW Dev) */
+  --rf-green:        #059669;
+  --rf-green-lt:     rgba(5, 150, 105, 0.1);
+  --rf-green-border: rgba(5, 150, 105, 0.2);
+
+  /* Amber — Scale/premium tier only (shared with MW Dev) */
+  --rf-amber:        #f59e0b;
+  --rf-amber-lt:     rgba(245, 158, 11, 0.1);
+
+  /* Surfaces */
+  --rf-bg:           #f5f7fa;
+  --rf-surface:      #ffffff;
+  --rf-border:       #e5e7eb;
+}
+
+/* RULES:
+ * --rf-red-bright  → CTAs + pain stats ONLY
+ * --rf-green       → every revenue-positive number
+ * --rf-navy-deep   → nav + hero — never diluted
+ * --rf-amber       → Scale/Enterprise tier only
+ */

@@ -1,0 +1,16 @@
+/* RevenueFirst.AI — Spacing & Layout */
+
+:root {
+  --rf-radius-sm:  4px;
+  --rf-radius-md:  6px;
+  --rf-radius-lg:  10px;
+  --rf-max-width:  1100px;
+  --rf-nav-height: 52px;
+
+  --rf-space-xs:  4px;
+  --rf-space-sm:  8px;
+  --rf-space-md:  16px;
+  --rf-space-lg:  24px;
+  --rf-space-xl:  36px;
+  --rf-space-2xl: 48px;
+}

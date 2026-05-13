@@ -1,0 +1,19 @@
+/* RevenueFirst.AI — Typography Tokens */
+
+:root {
+  --rf-font-display: Georgia, 'Times New Roman', serif;
+  --rf-font-body:    system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --rf-font-mono:    'Courier New', Courier, monospace;
+
+  --rf-text-hero:   clamp(28px, 4vw, 48px);
+  --rf-text-h1:     clamp(24px, 3vw, 34px);
+  --rf-text-h2:     20px;
+  --rf-text-body:   14px;
+  --rf-text-label:  10px;
+
+  --rf-weight-bold:   700;
+  --rf-weight-normal: 400;
+
+  --rf-lh-tight:  1.15;
+  --rf-lh-normal: 1.65;
+}
